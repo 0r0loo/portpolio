@@ -17,10 +17,32 @@ lib : 공용으로 쓸 것들
 
 # 앞으로 추가 될 것
 - 블로그 프로젝트
+  - Next js -v 13
+  - Notion API
+  - TailwindCSS
+  - 찾는중
 - 디자인시스템 프로젝트
-
+  - Storybook -v 7
+  - Node -v 18.12
+  - 찾는중
+- Remix Toy Project
+- trpc or T3 Stack
 
 # 보완 해야할 것
 - 커밋 관리는 어떻게?
 - 배포는 따로따로 하면되나? 걍?
+    - 배포 파이프라인에 빌드 넣어야함
+- eslint 맞춤
+- prettier 맞춤
+- git action
 
+
+# 모노 레포 비교
+| MonoRepo | Yarn berry (v3) | TurboReop | Nx | Lerna |
+| --- | --- | --- | --- | --- |
+| 공식문서 상태 |  |  |  |  |
+| 속도 |  |  |  |  |
+| 모듈사용 |  |  |  |  |
+| 사용하는 회사 |  |  |  |  |
+
+[https://www.surfit.io/tag/Monorepo](https://www.surfit.io/tag/Monorepo)
