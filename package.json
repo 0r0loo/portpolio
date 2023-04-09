@@ -25,6 +25,7 @@
     "*.json": [
       "prettier --write"
     ]
+    "ds": "yarn workspace design-system"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
