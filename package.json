@@ -11,10 +11,26 @@
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "apps/**/*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "packages/**/*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.json": [
+      "prettier --write"
+    ]
     "ds": "yarn workspace design-system"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
     "prettier": "latest",
     "turbo": "latest"
   },
